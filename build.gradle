@@ -25,13 +25,14 @@ repositories {
 // Specify dependencies
 dependencies {
     implementation 'org.codehaus.groovy:groovy-all:2.4.15'
-    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '2.1.7.RELEASE'
     implementation 'org.hashids:hashids:1.0.1'
     implementation 'org.springframework:spring-orm:4.2.5.RELEASE'
     implementation 'org.hibernate:hibernate-core:5.2.1.Final'
     implementation 'org.apache.tomcat:tomcat-dbcp:8.0.32'
     // https://mvnrepository.com/artifact/org.postgresql/postgresql
-    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.6'
+    implementation 'org.postgresql:postgresql:42.2.6'
 }
 
 sourceSets {
