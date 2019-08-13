@@ -37,14 +37,20 @@ dependencies {
 
 sourceSets {
     main {
+        java {
+            srcDirs = []
+        }
         groovy {
-            srcDirs = ['src/main/groovy']
+            srcDirs += ['src/main/java']
         }
     }
 
     test {
+        java {
+            srcDirs = []
+        }
         groovy {
-            srcDirs = ['src/test/groovy']
+            srcDirs = ['src/test/java']
         }
     }
 }

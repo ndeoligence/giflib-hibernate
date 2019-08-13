@@ -1,6 +1,5 @@
 package com.teamtreehouse.giflib.dao;
 
-import com.teamtreehouse.giflib.model.Gif;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

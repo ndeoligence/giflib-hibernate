@@ -1,6 +1,5 @@
 package com.teamtreehouse.giflib.service;
 
-import com.teamtreehouse.giflib.model.Gif;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

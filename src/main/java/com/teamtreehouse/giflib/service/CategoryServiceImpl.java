@@ -1,7 +1,6 @@
 package com.teamtreehouse.giflib.service;
 
 import com.teamtreehouse.giflib.dao.CategoryDao;
-import com.teamtreehouse.giflib.model.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
